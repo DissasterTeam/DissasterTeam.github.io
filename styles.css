@@ -10,7 +10,7 @@ header, section, footer {
 }
 
 header {
-    background-color: #333;
+    background-color: #008000; /* Verde para DCT */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -28,6 +28,16 @@ h2 {
 
 .service {
     margin-top: 10px;
+}
+
+/* Estilo para Arch - Hosting de Servidores Minecraft */
+.service:nth-child(odd) {
+    background-color: #808080; /* Gris para Arch */
+}
+
+/* Estilo para Priority - App de Chat */
+.service:nth-child(even) {
+    background-color: #800080; /* Morado para Priority */
 }
 
 footer {

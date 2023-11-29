@@ -2,54 +2,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-header, section, footer {
-    margin: 20px;
+    background-color: #f0f0f0;
 }
 
 header {
-    background-color: #008000; /* Verde para DCT */
-    color: #fff;
-    text-align: center;
+    background-color: #00cc00; /* Verde para DCT */
     padding: 20px;
+    text-align: center;
+    color: white;
 }
 
 section {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #333;
+    padding: 20px;
+    text-align: center;
 }
 
 .service {
-    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para Arch - Hosting de Servidores Minecraft */
-.service:nth-child(odd) {
-    background-color: #808080; /* Gris para Arch */
-}
-
-/* Estilo para Priority - App de Chat */
-.service:nth-child(even) {
+.priority {
     background-color: #800080; /* Morado para Priority */
+    color: white;
+}
+
+.arch {
+    background-color: #f0f0f0; /* Gris claro para Arch */
 }
 
 footer {
-    text-align: center;
-    color: #777;
-}
-
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

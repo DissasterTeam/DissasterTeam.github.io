@@ -13,16 +13,23 @@ header {
 }
 
 section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
     text-align: center;
 }
 
 .service {
+    flex: 1;
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
 }
 
 .priority {
@@ -41,4 +48,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
